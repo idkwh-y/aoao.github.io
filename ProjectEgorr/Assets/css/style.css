@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+
+}
+
+h1{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-decoration: none;
+}
+
+.logo{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap:25px;
+margin-left: 100px;
+}
+
+.list{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:80px;
+margin-left: 1000px;
+padding-top: 30px;
+
+}
+
+.headbg{
+    background-color: black;   
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.secheader{
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+h2{
+    font-size: 65px;
+    color: white;
+}
+
+.secheadertext{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 80px;
+}
+.secheadertext2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mainik{
+
+}
+
+.maniktext{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainikpics1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    max-width: 100;
+    border: 1px solid purple;
+    padding: 20px 40px;
+
+}
+.mainikpics2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    max-width: 100;
+    border: 1px solid purple;
+    padding: 20px 40px;
+}
+.mainikpics3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    max-width: 100;
+    border: 1px solid purple;
+    padding: 20px 40px;
+}
+
+h3{
+ font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+p1{
+    text-align: center;
+}
+
+.buttonka{
+    color:white;
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.socialismdivs{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    padding-left: 400px;
+}
